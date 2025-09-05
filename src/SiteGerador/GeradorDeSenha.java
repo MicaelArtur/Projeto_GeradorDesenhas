@@ -16,9 +16,9 @@ public class GeradorDeSenha {
 		int len = sc.nextInt();
 		sc.nextLine(); 
 		
-		System.out.print("Incluir Letras m? (s/n)"); 
+		System.out.print("Incluir Letras minúscula? (s/n)"); 
 		boolean useLower = sc.nextLine().trim().equalsIgnoreCase("s");
-		System.out.print("Incluir Letras M? (s/n)"); 
+		System.out.print("Incluir Letras Maiúscula? (s/n)"); 
 		boolean useUpper = sc.nextLine().trim().equalsIgnoreCase("s");
 		System.out.print("Incluir Digitos? (s/n)"); 
 		boolean useDigits = sc.nextLine().trim().equalsIgnoreCase("s");
