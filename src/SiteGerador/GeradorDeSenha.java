@@ -25,8 +25,8 @@ public class GeradorDeSenha {
 		System.out.print("Incluir Simbolos? (s/n)");
 		boolean useSymblos = sc.nextLine().trim().equalsIgnoreCase("s");
 		
-		if (len <= 0) {
-			System.out.print("Comprimento Inálido");
+		if (len <= 11) {
+			System.out.print("Comprimento Inválido");
 			sc.close();
 			return;
 		}
